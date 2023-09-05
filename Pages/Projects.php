@@ -74,6 +74,7 @@ function getTextById($conn, $id) {
     </div>
     <hr>
 
+    <a href="../../../../index.html"><h1 class="back">Link voor meer projecten</h1></a>
 
     </div>
     <hr>
