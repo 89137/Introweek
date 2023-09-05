@@ -18,6 +18,8 @@
      text-decoration: none;
      padding: 15px;
      background: none;
- }
+ } .FlexBox2 {
+              align-items: center;
+          }
 
 

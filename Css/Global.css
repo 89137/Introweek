@@ -1,13 +1,11 @@
 body, html {
     width: 100%;
-    min-height: 100%;
     min-height: 1080px;
     margin: 0;
     padding-top: 10px;
     font-family: 'Roboto', sans-serif;
-    
-    background: linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(92,11,69,1) 100%);
-    background-repeat: no-repeat;
+
+    background: linear-gradient(0deg, rgba(195, 34, 34, 1) 0%, rgba(92, 11, 69, 1) 100%) no-repeat;
     background-size: cover;
 } body {
     overflow-x: hidden;
@@ -16,8 +14,7 @@ body, html {
 } a {
     text-decoration: none;
     font-weight: 300;
-    border-bottom: 2px solid rgb(92, 54, 54);
-    border: none;
+        border: none;
     color: white;
 } .container {
     height: 100%;
@@ -32,10 +29,8 @@ body, html {
     border-radius: 30px;
     color: #fff;
     text-align: center;
-    background-repeat: no-repeat;
-    background-color: #5e3446;
-    background: linear-gradient(0deg, rgba(195,51,34,1) 0%, rgba(203,15,151,1) 100%);
-} .MainBox {
+          background: #5e3446 linear-gradient(0deg, rgba(195, 51, 34, 1) 0%, rgba(203, 15, 151, 1) 100%) no-repeat;
+      } .MainBox {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -54,16 +49,19 @@ body, html {
     flex-wrap: wrap;
     justify-content: center;
     width: 40%;
+    align-items: center;
 } .FlexBox2 > img{
-    width: 50%;
+    width: 80%;
     border: #5e3446 solid 1px;
     border-radius: 50%;
     box-shadow: 10px 10px 24px 7px rgb(144 14 66);
+
 } .FlexBox3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 50%;
+    align-items: center;
 } .image2 {
     width: 80%;
     height: 25vh;
@@ -101,7 +99,7 @@ body, html {
 /* Topnav css */
 
 .topnav {
-    font-family: 'Permanent Marker';font-size: 22px;
+    font-family: 'Permanent Marker', serif;font-size: 22px;
     position: absolute;
     left: 50%;
     top: 3%;
@@ -129,8 +127,7 @@ body, html {
     text-decoration: none;
     font-size: 3vh;
     padding-top: 2%;
-    text-decoration: none;
-    padding-left: 50px;
+           padding-left: 50px;
   } a:hover{
     transition: .2s;
     text-decoration: none;
