@@ -48,6 +48,10 @@ function getTextById($conn, $id) {
 <div class="container">
     <div class="">
         <p><h1>Project page </h1></p>
+        <p> 3 projecten van mij:<br>
+            klik op afbeelding om groter/kleiner te maken<br>
+            En klik op de project() titel om naar het project te gaan
+        </p>
     </div>
     <hr>
     <div class="MainBox">
@@ -58,13 +62,13 @@ function getTextById($conn, $id) {
             <div class="Text-Box">
                 <p><?php echo getTextById($conn, 1); ?></p>
             </div>
-            </div>
         </div>
+    </div>
     <hr>
 
     <div class="MainBox">
         <div class="FlexBox2">
-            <p><?php echo getTextById($conn, 101); ?></p>
+            <p><?php echo getTextById($conn, 102); ?></p>
         </div>
         <div class="FlexBox1">
             <div class="Text-Box">
@@ -73,11 +77,23 @@ function getTextById($conn, $id) {
         </div>
     </div>
     <hr>
-
-    <a href="../../../../index.html"><h1 class="back">Link voor meer projecten</h1></a>
+    <div class="MainBox">
+        <div class="FlexBox2">
+            <p><?php echo getTextById($conn, 103); ?></p>
+        </div>
+        <div class="FlexBox1">
+            <div class="Text-Box">
+                <p><?php echo getTextById($conn, 3); ?></p>
+            </div>
+        </div>
 
     </div>
     <hr>
+
+    <a href="../../../../index.html"><h1 class="back">Link voor meer projecten</h1></a>
+
+</div>
+<hr>
 </div>
 
 <?php
